@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="module" src="script/script.js" ></script>
+    <title>Desafio - 2</title>
+
+</head>
+<body>
+
+    <header id="cabecalho">
+
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <li  class="flex item"><a class="flex go" href="#"><span class="material-icons icons-list">
+            travel_explore</span></a></li>
+
+    </header>
+    
+    <main>
+        <section id="formulario">
+            <form method="post" name="cadastro">
+                <fieldset>
+                    <label for="cep">Cep</label>
+                    <input type="text" required class="txt" id="cep" name="cep" value="" >
+                    <label for="logradouro">Rua</label>
+                    <input type="text" class="txt" id="logradouro" name="logradouro" value="" disabled>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" class="txt" id="bairro" name="bairro" value="" disabled>
+                    <label for="localidade">Cidade</label>
+                    <input type="text" class="txt" id="localidade" name="localidade" value="" disabled>
+                    <label for="uf">Estado</label>
+                    <input type="text" class="txt" id="uf" name="uf" value="" disabled>
+                    <div class="flex controle-form-btn" >
+                        <input class="btn" type="button" name="enviarDados" id="enviarDados" value="BUSCAR">
+                    </div>
+                </fieldset>  
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

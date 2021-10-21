@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background: linear-gradient(to left, #2196F3, #3D5AFE,  #0D47A1  );
+	height: 200px;
+}
+
+header#cabecalho h1 {
+	color: white;
+	font-size: 2em;
+    text-align: center;
+    padding: 20px 10px 10px 5px;
+}
+
+header#cabecalho h2{
+	color: white;
+	font-size: 1em;
+    text-align: center;
+}
+
+header#cabecalho li.item {
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+}
+
+header#cabecalho a{
+    text-decoration: none;
+    background-color: white;
+    color: #3D5AFE;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    
+}
+
+.icons-list {
+    margin-right: 2px;
+    font-size: 5rem;
+}
+
+section#formulario {
+    margin: 50px auto;
+    padding: 5px;
+    width: 50%;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+fieldset {
+    padding: 5px 40px 5px 40px;
+} 
+
+label {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+} 
+
+.txt {
+    width: 100%;
+    height: 30px;
+}
+
+div.controle-form-btn {
+    width: 100%;
+}
+
+div.controle-form-btn .btn {
+    padding: 10px;
+    width: 100%;
+    margin-top:5px;
+    border: none;
+    background-color: #3D5AFE;
+    color:#fff;
+    cursor:pointer;
+    border-radius: 5px;
+    border-bottom: 3px solid #0D47A1;
+}
+
